@@ -1,0 +1,370 @@
+[
+    {
+        "id": "1783925652626-fxqg8gxr9",
+        "style": {
+            "bgColor": "transparent",
+            "borderTopColor": "transparent",
+            "borderBottomColor": "transparent",
+            "borderLeftColor": "transparent",
+            "borderRightColor": "transparent",
+            "borderStyle": "solid",
+            "borderTopSize": 0,
+            "borderBottomSize": 0,
+            "borderLeftSize": 0,
+            "borderRightSize": 0,
+            "padding": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+            },
+            "height": "auto"
+        },
+        "columns": [
+            {
+                "id": "1783925652626-ik30f34h3",
+                "style": {
+                    "bgColor": "#ffffffff",
+                    "borderTopColor": "#a0c4ff",
+                    "borderBottomColor": "#a0c4ff",
+                    "borderLeftColor": "#a0c4ff",
+                    "borderRightColor": "#a0c4ff",
+                    "borderStyle": "solid",
+                    "borderTopSize": 0,
+                    "borderBottomSize": 0,
+                    "borderLeftSize": 0,
+                    "borderRightSize": 0,
+                    "padding": {
+                        "top": 10,
+                        "right": 10,
+                        "bottom": 10,
+                        "left": 10
+                    },
+                    "height": "auto",
+                    "textAlign": "left",
+                    "bgImage": "",
+                    "bgSize": "cover",
+                    "bgPosition": "center",
+                    "bgRepeat": "no-repeat",
+                    "bgAttachment": "scroll",
+                    "borderRadius": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    },
+                    "margin": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    }
+                },
+                "contentType": null,
+                "contentData": null,
+                "widgetContents": [
+                    {
+                        "contentType": "emailHeader",
+                        "contentData": "{\"storeName\":\"{{store_name}}\",\"showStoreName\":true,\"showLogo\":true,\"logoUrl\":\"\",\"logoWidth\":\"150px\",\"showTagline\":true,\"tagline\":\"\",\"title\":\"{{store_name}}\",\"backgroundColor\":\"#25a2d0\",\"textColor\":\"#ffffff\",\"padding\":{\"top\":15,\"right\":15,\"bottom\":15,\"left\":15},\"margin\":{\"top\":0,\"right\":0,\"bottom\":0,\"left\":0},\"height\":\"auto\",\"width\":\"100%\",\"fontSize\":\"28px\",\"fontFamily\":\"Arial, sans-serif\",\"fontWeight\":\"bold\",\"textAlign\":\"center\",\"logoAlign\":\"left\",\"taglineFontSize\":\"14px\",\"subStyles\":{},\"bgColor\":\"#25a2d0\",\"color\":\"#ffffff\",\"align\":\"center\",\"alignment\":\"center\",\"iconAlign\":\"center\"}"
+                    }
+                ],
+                "textEditorOptions": {},
+                "headingEditorOptions": {},
+                "socialIconsEditorOptions": {},
+                "dividerEditorOptions": {},
+                "imageEditorOptions": {},
+                "buttonEditorOptions": {},
+                "sectionEditorOptions": {},
+                "spacerEditorOptions": {},
+                "tableEditorOptions": {},
+                "linkEditorOptions": {},
+                "iconEditorOptions": {},
+                "shippingAddressEditorOptions": {},
+                "billingAddressEditorOptions": {},
+                "orderItemsEditorOptions": {},
+                "taxBillingEditorOptions": {},
+                "paragraphRowEditorOptions": {}
+            }
+        ]
+    },
+    {
+        "id": "1783925687735-6s9km5am5",
+        "style": {
+            "bgColor": "transparent",
+            "borderTopColor": "transparent",
+            "borderBottomColor": "transparent",
+            "borderLeftColor": "transparent",
+            "borderRightColor": "transparent",
+            "borderStyle": "solid",
+            "borderTopSize": 0,
+            "borderBottomSize": 0,
+            "borderLeftSize": 0,
+            "borderRightSize": 0,
+            "padding": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+            },
+            "height": "auto"
+        },
+        "columns": [
+            {
+                "id": "1783925687735-t8hib57sd",
+                "style": {
+                    "bgColor": "#ffffffff",
+                    "borderTopColor": "#a0c4ff",
+                    "borderBottomColor": "#a0c4ff",
+                    "borderLeftColor": "#a0c4ff",
+                    "borderRightColor": "#a0c4ff",
+                    "borderStyle": "solid",
+                    "borderTopSize": 0,
+                    "borderBottomSize": 0,
+                    "borderLeftSize": 0,
+                    "borderRightSize": 0,
+                    "padding": {
+                        "top": 10,
+                        "right": 10,
+                        "bottom": 10,
+                        "left": 10
+                    },
+                    "height": "auto",
+                    "textAlign": "left",
+                    "bgImage": "",
+                    "bgSize": "cover",
+                    "bgPosition": "center",
+                    "bgRepeat": "no-repeat",
+                    "bgAttachment": "scroll",
+                    "borderRadius": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    },
+                    "margin": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    }
+                },
+                "contentType": null,
+                "contentData": null,
+                "widgetContents": [
+                    {
+                        "contentType": "text",
+                        "contentData": "{\"content\":\"<p>We apologize for the inconvenience. This order has failed.</p>\",\"padding\":{\"top\":30,\"right\":30,\"bottom\":30,\"left\":30},\"textTransform\":\"uppercase\",\"color\":\"#000000\",\"textColor\":\"#000000\",\"fontWeight\":\"700\",\"textAlign\":\"center\",\"align\":\"center\",\"alignment\":\"center\",\"iconAlign\":\"center\"}"
+                    }
+                ],
+                "textEditorOptions": {
+                    "content": "<p>We apologize for the inconvenience. This order has failed.</p>",
+                    "padding": {
+                        "top": 30,
+                        "right": 30,
+                        "bottom": 30,
+                        "left": 30
+                    },
+                    "textTransform": "uppercase",
+                    "color": "#000000",
+                    "textColor": "#000000",
+                    "fontWeight": "700",
+                    "textAlign": "center",
+                    "align": "center",
+                    "alignment": "center",
+                    "iconAlign": "center"
+                },
+                "headingEditorOptions": {},
+                "socialIconsEditorOptions": {},
+                "dividerEditorOptions": {},
+                "imageEditorOptions": {},
+                "buttonEditorOptions": {},
+                "sectionEditorOptions": {},
+                "spacerEditorOptions": {},
+                "tableEditorOptions": {},
+                "linkEditorOptions": {},
+                "iconEditorOptions": {},
+                "shippingAddressEditorOptions": {},
+                "billingAddressEditorOptions": {},
+                "orderItemsEditorOptions": {},
+                "taxBillingEditorOptions": {},
+                "paragraphRowEditorOptions": {}
+            }
+        ]
+    },
+    {
+        "id": "1783925681428-35ygjz3zr",
+        "style": {
+            "bgColor": "transparent",
+            "borderTopColor": "transparent",
+            "borderBottomColor": "transparent",
+            "borderLeftColor": "transparent",
+            "borderRightColor": "transparent",
+            "borderStyle": "solid",
+            "borderTopSize": 0,
+            "borderBottomSize": 0,
+            "borderLeftSize": 0,
+            "borderRightSize": 0,
+            "padding": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+            },
+            "height": "auto"
+        },
+        "columns": [
+            {
+                "id": "1783925681428-drg20b73c",
+                "style": {
+                    "bgColor": "#ffffffff",
+                    "borderTopColor": "#a0c4ff",
+                    "borderBottomColor": "#a0c4ff",
+                    "borderLeftColor": "#a0c4ff",
+                    "borderRightColor": "#a0c4ff",
+                    "borderStyle": "solid",
+                    "borderTopSize": 0,
+                    "borderBottomSize": 0,
+                    "borderLeftSize": 0,
+                    "borderRightSize": 0,
+                    "padding": {
+                        "top": 10,
+                        "right": 10,
+                        "bottom": 10,
+                        "left": 10
+                    },
+                    "height": "auto",
+                    "textAlign": "left",
+                    "bgImage": "",
+                    "bgSize": "cover",
+                    "bgPosition": "center",
+                    "bgRepeat": "no-repeat",
+                    "bgAttachment": "scroll",
+                    "borderRadius": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    },
+                    "margin": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    }
+                },
+                "contentType": null,
+                "contentData": null,
+                "widgetContents": [
+                    {
+                        "contentType": "orderItems",
+                        "contentData": "{}"
+                    }
+                ],
+                "textEditorOptions": {},
+                "headingEditorOptions": {},
+                "socialIconsEditorOptions": {},
+                "dividerEditorOptions": {},
+                "imageEditorOptions": {},
+                "buttonEditorOptions": {},
+                "sectionEditorOptions": {},
+                "spacerEditorOptions": {},
+                "tableEditorOptions": {},
+                "linkEditorOptions": {},
+                "iconEditorOptions": {},
+                "shippingAddressEditorOptions": {},
+                "billingAddressEditorOptions": {},
+                "orderItemsEditorOptions": {},
+                "taxBillingEditorOptions": {},
+                "paragraphRowEditorOptions": {}
+            }
+        ]
+    },
+    {
+        "id": "1783925737086-dk34lefcz",
+        "style": {
+            "bgColor": "transparent",
+            "borderTopColor": "transparent",
+            "borderBottomColor": "transparent",
+            "borderLeftColor": "transparent",
+            "borderRightColor": "transparent",
+            "borderStyle": "solid",
+            "borderTopSize": 0,
+            "borderBottomSize": 0,
+            "borderLeftSize": 0,
+            "borderRightSize": 0,
+            "padding": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+            },
+            "height": "auto"
+        },
+        "columns": [
+            {
+                "id": "1783925737086-y0dm1ib30",
+                "style": {
+                    "bgColor": "#ffffffff",
+                    "borderTopColor": "#a0c4ff",
+                    "borderBottomColor": "#a0c4ff",
+                    "borderLeftColor": "#a0c4ff",
+                    "borderRightColor": "#a0c4ff",
+                    "borderStyle": "solid",
+                    "borderTopSize": 0,
+                    "borderBottomSize": 0,
+                    "borderLeftSize": 0,
+                    "borderRightSize": 0,
+                    "padding": {
+                        "top": 10,
+                        "right": 10,
+                        "bottom": 10,
+                        "left": 10
+                    },
+                    "height": "auto",
+                    "textAlign": "left",
+                    "bgImage": "",
+                    "bgSize": "cover",
+                    "bgPosition": "center",
+                    "bgRepeat": "no-repeat",
+                    "bgAttachment": "scroll",
+                    "borderRadius": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    },
+                    "margin": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 0,
+                        "left": 0
+                    }
+                },
+                "contentType": null,
+                "contentData": null,
+                "widgetContents": [
+                    {
+                        "contentType": "emailFooter",
+                        "contentData": "{\"storeName\":\"{{store_name}}\",\"showSocialMedia\":true,\"showAddress\":true,\"storeAddress\":\"{{store_address}}\",\"showContact\":true,\"contactEmail\":\"{{store_email}}\",\"contactPhone\":\"{{store_phone}}\",\"backgroundColor\":\"#333333\",\"textColor\":\"#ffffff\",\"linkColor\":\"#4CAF50\",\"padding\":\"0px\",\"margin\":\"0px\",\"fontFamily\":\"Arial, sans-serif\",\"fontSize\":\"14px\",\"copyrightText\":\"© {{current_year}} {{store_name}}. All rights reserved.\",\"showCopyright\":true,\"showLegal\":true,\"privacyLinkText\":\"Privacy Policy\",\"privacyLinkUrl\":\"#\",\"termsLinkText\":\"Terms & Conditions\",\"termsLinkUrl\":\"#\",\"emailLabel\":\"Email:\",\"phoneLabel\":\"Phone:\",\"footerOrder\":[\"social\",\"address\",\"contact\",\"legal\",\"copyright\"],\"storeUrl\":\"{{store_url}}\",\"socialIcons\":{\"icons\":[\"facebook\",\"twitter\",\"instagram\"],\"urls\":[\"https://facebook.com\",\"https://twitter.com\",\"https://instagram.com\"]}}"
+                    }
+                ],
+                "textEditorOptions": {},
+                "headingEditorOptions": {},
+                "socialIconsEditorOptions": {},
+                "dividerEditorOptions": {},
+                "imageEditorOptions": {},
+                "buttonEditorOptions": {},
+                "sectionEditorOptions": {},
+                "spacerEditorOptions": {},
+                "tableEditorOptions": {},
+                "linkEditorOptions": {},
+                "iconEditorOptions": {},
+                "shippingAddressEditorOptions": {},
+                "billingAddressEditorOptions": {},
+                "orderItemsEditorOptions": {},
+                "taxBillingEditorOptions": {},
+                "paragraphRowEditorOptions": {}
+            }
+        ]
+    }
+]

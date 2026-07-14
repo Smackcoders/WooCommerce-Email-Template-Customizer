@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import './tinymce-font.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: unset;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+strong,
+b {
+  font-weight: bold !important;
+}
+
+em,
+i {
+  font-style: italic !important;
+}
+
+.css-113d811-MuiFormLabel-root-MuiInputLabel-root {
+  top: -10px;
+}
+
+
+.wp-die-message,
+p {
+  line-height: unset;
+  font-size: unset;
+  margin: 0;
+}
+
+h2,
+h3 {
+  color: unset;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+/* CKEditor content styles for lists - in editor */
+.ck-content ul,
+.ck-content ol {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.ck-content ul {
+  list-style-type: disc;
+}
+
+.ck-content ol {
+  list-style-type: decimal;
+}
+
+.ck-content li {
+  margin-bottom: 5px;
+}
+
+/* List styles for rendered content - scoped to plugin only */
+#root ul {
+  margin-left: 20px !important;
+  padding-left: 20px !important;
+  list-style-type: disc !important;
+}
+
+#root ol {
+  margin-left: 20px !important;
+  padding-left: 20px !important;
+  list-style-type: decimal !important;
+}
+
+#root li {
+  margin-bottom: 5px !important;
+}
+
+/* Fix for MUI TextField border cutting through label in WP Admin */
+/* WordPress global styles often hide or collapse legends */
+fieldset.MuiOutlinedInput-notchedOutline legend {
+  width: auto;
+  height: auto;
+  display: block;
+  visibility: hidden;
+  max-width: 0.01px;
+  font-size: 0.75em;
+  padding: 0;
+  text-align: left;
+  transition: max-width 50ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  white-space: nowrap;
+  line-height: normal;
+}
+
+fieldset.MuiOutlinedInput-notchedOutline legend span {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  visibility: visible;
+  opacity: 0;
+  width: auto;
+  white-space: nowrap;
+  font-size: inherit;
+}
+
+/* FIX: Ensure WordPress Media Modal is above everything */
+/* Stagger z-index to ensure modal is above backdrop */
+.media-modal-backdrop {
+  z-index: 2147483640 !important;
+}
+
+.media-modal {
+  z-index: 2147483645 !important;
+}
+
+/* Ensure inner parts inherit or stay high if needed */
+.media-frame,
+.media-frame-content,
+.media-frame-title,
+.media-frame-router,
+.media-frame-toolbar {
+  z-index: 2147483646 !important;
+}
+
+.media-modal-close {
+  z-index: 2147483647 !important;
+}
+
+/* CKEditor Balloon / Modal z-index fix */
+.ck.ck-balloon-panel {
+  z-index: 9999999 !important;
+}
+
+.ck-body-wrapper {
+  z-index: 9999999 !important;
+}
+
+/* Fix for double borders in WP Admin - remove default WP borders from MUI input elements */
+#root .MuiOutlinedInput-input,
+#root .MuiSelect-select {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  background-color: transparent !important;
+}
+
+/* Modern thin scrollbar for all scrollable areas within the app */
+#root *::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+#root *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#root *::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 3px;
+}
+
+#root *::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+
+/* For Firefox */
+#root * {
+  scrollbar-width: thin;
+  scrollbar-color: #ddd transparent;
+}
+
+/* Hover effects for delete buttons on customizer components */
+.section-child-wrapper:hover .delete-btn-section {
+  display: flex !important;
+}
+
+.container-child-wrapper:hover .delete-btn-container {
+  display: flex !important;
+}
+
+.row-child-wrapper:hover .delete-btn {
+  display: flex !important;
+}
+
+/* Hide number spinner controls globally to prevent layout truncation */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Disable resize handles and mouse resizing globally in the workspace */
+.ui-resizable-handle,
+.react-resizable-handle,
+.ui-resizable,
+.resizable {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+* {
+  resize: none !important;
+}
+
+/* WordPress Editor Switches (Visual / Text) */
+.wp-switch-editor {
+  color: #333 !important;
+  font-size: 13px !important;
+}
+
+/* Fix TinyMCE Editor Icons - use embedded base64 fonts to bypass CORS */
+.mce-ico {
+  font-family: 'tinymce', Arial !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: 1 !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  speak: never;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mce-btn-small .mce-ico {
+  font-family: 'tinymce-small', Arial !important;
+}
+
+.mce-btn button {
+  color: #333 !important;
+}

@@ -1,0 +1,27 @@
+#footer-thankyou {
+  display: none;
+}
+
+#wpfooter p {
+  display: none;
+}
+
+/* EMERGENCY OVERRIDE: Force Root Visibility */
+#root {
+  display: flex !important;
+  flex-direction: column;
+  opacity: 1 !important;
+  visibility: visible !important;
+  height: 100vh !important;
+  width: 100% !important;
+  background: #fff !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 999999 !important;
+}
+
+/* Premium Typography Enforcement */
+#root, #root * {
+  font-family: 'Poppins', sans-serif !important;
+}

@@ -1,0 +1,674 @@
+export interface SectionEditorOptions {
+  backgroundColor: string;
+  backgroundImage: string;
+  height: string;
+  width: string;
+  padding: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface SpacerEditorOptions {
+  height: number;
+  width: string;
+  backgroundColor: string;
+}
+export interface LinkEditorOptions {
+  text: string;
+  url: string;
+  color: string;
+  fontFamily: string;
+  fontSize: number;
+  lineHeight?: number;
+  letterSpacing?: number;
+  textTransform?: 'none' | 'uppercase' | 'lowercase' | 'capitalize';
+  underline: boolean;
+  textAlign: 'left' | 'center' | 'right' | 'justify';
+  fontWeight: string;
+  padding: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface IconEditorOptions {
+  iconType: string;
+  color: string;
+  size: number;
+  link: string;
+  paddingTop: number;
+  paddingRight: number;
+  paddingBottom: number;
+  paddingLeft: number;
+  marginTop: number;
+  marginRight: number;
+  marginBottom: number;
+  marginLeft: number;
+  alignment: 'left' | 'center' | 'right' | 'justify';
+  width?: number;
+  height?: number;
+}
+export interface TextEditorOptions {
+  fontFamily: string;
+  fontSize: number;
+  fontWeight: string;
+  fontStyle: string;
+  color: string;
+  backgroundColor: string;
+  textAlign: 'left' | 'center' | 'right' | 'justify';
+  lineHeight: number;
+  letterSpace: number;
+  padding: {
+    top: number;
+    left: number;
+    right: number;
+    bottom: number;
+}
+export interface ButtonEditorOptions {
+  urlDisabled: boolean;
+  text: string;
+  url: string;
+  fontFamily: string;
+  fontSize: number;
+  fontWeight: string;
+  fontStyle: string;
+  textAlign: 'left' | 'center' | 'right';
+  textTransform?: 'none' | 'uppercase' | 'lowercase' | 'capitalize';
+  letterSpace?: number;
+  letterSpacing?: number;
+  bgColor: string;
+  textColor: string;
+  widthAuto?: boolean;
+  width?: number;
+  padding: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface HeadingEditorOptions {
+  headingType: 'h1' | 'h2' | 'h3' | 'h4' | 'p';
+  fontFamily: string;
+  fontWeight: string;
+  fontStyle: string;
+  fontSize: number;
+  color: string;
+  backgroundColor: string;
+  textAlign: 'left' | 'center' | 'right' | 'justify' | '';
+  textTransform?: 'none' | 'uppercase' | 'lowercase' | 'capitalize';
+  lineHeight: number;
+  letterSpace: number;
+  width?: string;
+  height?: string;
+  display?: string;
+  justifyContent?: string;
+  alignItems?: string;
+  padding: {
+    top: number;
+    left: number;
+    right: number;
+    bottom: number;
+}
+export interface SocialIconsEditorOptions {
+  iconSize: number;
+  iconColor: string;
+  iconAlign: 'left' | 'center' | 'right';
+  iconSpace: number;
+  width?: string;
+  height?: string;
+  display?: string;
+  padding: {
+    top: number;
+    left: number;
+    right: number;
+    bottom: number;
+}
+export interface DividerEditorOptions {
+  width: string;
+  style: 'solid' | 'dashed' | 'dotted';
+  thickness: number;
+  color: string;
+  alignment: 'left' | 'center' | 'right';
+  padding: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface RowEditorOptions {
+  columns: number;
+  gap: number;
+  backgroundColor: string;
+  columnsData: Array<{
+    id: string;
+    children: Array<{
+      id: string;
+      contentType: WidgetContentType;
+      contentData: string | null;
+}
+export interface ContainerEditorOptions {
+  maxWidth: string;
+  width?: string;
+  height?: string;
+  backgroundColor: string;
+  padding: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface GroupEditorOptions {
+}
+export interface ParagraphRowEditorOptions {
+  rowLayout: 'horizontal' | 'vertical';
+  gap: number;
+  justifyContent: 'flex-start' | 'center' | 'flex-end' | 'space-between' | 'space-around';
+  labelWidth: number;
+  hideIfEmpty: boolean;
+  backgroundColor: string;
+  padding: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface SocialFollowEditorOptions {
+  platforms: Array<{
+    name: string;
+    url: string;
+    icon: string;
+}
+export interface VideoEditorOptions {
+  url: string;
+  width: string;
+  height: string;
+  autoplay: boolean;
+  controls: boolean;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface CountdownEditorOptions {
+  targetDate: string;
+  format: string;
+  showLabels: boolean;
+  backgroundColor: string; // This will now be the Box background
+  textColor: string;       // This will now be the Value text color
+  title?: string;
+  titleColor?: string;
+  footer?: string;
+  footerColor?: string;
+  labelColor?: string;
+  endMessage?: string;
+  daysLabel?: string;
+  hoursLabel?: string;
+  minutesLabel?: string;
+  secondsLabel?: string;
+  showDays?: boolean;
+  showHours?: boolean;
+  showMinutes?: boolean;
+  showSeconds?: boolean;
+  containerBgColor?: string;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface ProgressBarEditorOptions {
+  value: number;
+  max: number;
+  label: string;
+  color: string;
+  showPercentage: boolean;
+  title?: string;
+  progress?: number;
+  height?: number;
+  backgroundColor?: string;
+  barColor?: string;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface PromoCodeEditorOptions {
+  title: string;
+  code: string;
+  description: string;
+  validUntil: string;
+  backgroundColor: string;
+  textColor: string;
+  borderColor?: string;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface PriceEditorOptions {
+  amount: string | number;
+  currency: string;
+  period: string;
+  features: string[];
+  buttonText: string;
+  buttonUrl: string;
+  showDecimals?: boolean;
+  decimals?: number;
+  showCurrencySymbol?: boolean;
+  currencySymbol?: string;
+  label?: string;
+  showCurrencyCode?: boolean;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface TestimonialEditorOptions {
+  quote: string;
+  author: string;
+  position: string;
+  avatar: string;
+  rating: number;
+  backgroundColor?: string;
+  textColor?: string;
+  authorImage?: string;
+  authorTitle?: string;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface NavbarEditorOptions {
+  links: Array<{
+    text: string;
+    url: string;
+}
+export interface CardEditorOptions {
+  title?: string;
+  content?: string;
+  image: string;
+  backgroundColor: string;
+  shadow: boolean;
+  border: boolean;
+  borderColor?: string;
+  borderRadius?: number;
+  textColor?: string;
+  imageUrl?: string;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface AlertEditorOptions {
+  type: 'info' | 'success' | 'warning' | 'error';
+  message: string;
+  title?: string;
+  closable: boolean;
+  backgroundColor: string;
+  dismissible?: boolean;
+  textColor: string;
+  icon?: string;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface ProgressEditorOptions {
+  value: number;
+  min?: number;
+  max?: number;
+  label?: string;
+  color?: string;
+  showValue?: boolean;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface FormEditorOptions {
+  fields: Array<{
+    type: string;
+    label: string;
+    name: string;
+    required: boolean;
+}
+export interface SurveyEditorOptions {
+  questions?: Array<{
+    text: string;
+    type: string;
+    options: string[];
+}
+export interface InputEditorOptions {
+  type: 'text' | 'email' | 'password' | 'number';
+  label: string;
+  placeholder: string;
+  required: boolean;
+  name: string;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface ContactEditorOptions {
+  url: string;
+  email: string;
+  phone: string;
+  showUrl?: boolean;
+  showEmail?: boolean;
+  showPhone?: boolean;
+  backgroundColor: string;
+  textColor: string;
+  fontFamily: string;
+  fontSize: number | string;
+  padding: string;
+  margin?: string;
+  textAlign: string;
+  iconColor: string;
+  iconSize: number;
+  fontWeight?: string;
+  lineHeight?: number;
+  contactRowOrder?: string[];
+}
+export interface ProductDetailsEditorOptions {
+  productHeader?: string;
+  quantityHeader?: string;
+  priceHeader?: string;
+  productPlaceholder?: string;
+  quantityPlaceholder?: string;
+  pricePlaceholder?: string;
+  padding: string;
+  margin?: string;
+  backgroundColor: string;
+  textColor: string;
+  borderColor: string;
+  headerBackgroundColor: string;
+  headerTextColor: string;
+  fontFamily: string;
+  fontSize: number | string;
+  textAlign?: string;
+  showImage?: boolean; // If they want to toggle images in the table
+}
+export interface TextareaEditorOptions {
+  label: string;
+  placeholder: string;
+  rows: number;
+  required: boolean;
+  name: string;
+  disabled?: boolean;
+  cols?: number;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface SelectEditorOptions {
+  label: string;
+}
+export interface CheckboxEditorOptions {
+  label: string;
+  checked: boolean;
+  name: string;
+  value: string;
+  options?: string[];
+  required?: boolean;
+  inline?: boolean;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface RadioEditorOptions {
+  label: string;
+  options: string[];
+  name: string;
+  selected: string;
+  required?: boolean;
+  inline?: boolean;
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface LabelEditorOptions {
+  text: string;
+  for: string;
+  fontSize: number;
+  fontWeight: string;
+  color: string;
+  type?: 'required' | 'optional' | 'error' | 'warning' | 'normal';
+  margin?: {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+}
+export interface ShippingAddressEditorOptions {
+  title?: string;
+  fullName: string;
+  phone: string;
+  email: string;
+  addressLine1: string;
+  addressLine2: string;
+  city: string;
+  state: string;
+  postalCode: string;
+  country: string;
+  fontFamily: string;
+  fontSize: string;
+  textColor: string;
+  textAlign: string;
+  backgroundColor: string;
+  padding: string;
+}
+export interface BillingAddressEditorOptions {
+  title?: string;
+  fullName: string;
+  phone: string;
+  email: string;
+  addressLine1: string;
+  addressLine2: string;
+  city: string;
+  state: string;
+  postalCode: string;
+  country: string;
+  fontFamily: string;
+  fontWeight: string;
+  fontSize: string;
+  textColor: string;
+  textAlign: string;
+  backgroundColor: string;
+  lineHeight: string;
+  letterSpacing: string;
+  padding: string;
+}
+export interface TaxBillingEditorOptions {
+  invoiceTitle?: string;
+  orderDateLabel?: string;
+  subtotalLabel?: string;
+  shippingLabel?: string;
+  discountLabel?: string;
+  taxLabel?: string;
+  taxRateLabel?: string;
+  totalLabel?: string;
+  billingAddressTitle?: string;
+  billingNameLabel?: string;
+  billingAddressLabel?: string;
+  billingLocationLabel?: string;
+  footerText?: string;
+  orderNumber: string;
+  orderDate: string;
+  orderSubtotal: string;
+  orderShipping: string;
+  orderDiscount: string;
+  orderTax: string;
+  orderTotal: string;
+  taxRate: string;
+  billingFirstName: string;
+  billingLastName: string;
+  billingAddress1: string;
+  billingCity: string;
+  billingState: string;
+  billingPostcode: string;
+  billingCountry: string;
+  taxBillingTotalsRowOrder?: string[];
+  taxBillingAddressRowOrder?: string[];
+  fontFamily: string;
+  fontWeight: string;
+  fontSize: string;
+  textColor: string;
+  textAlign: string;
+  backgroundColor: string;
+  width: string;
+  height: string;
+}
+export interface OrderSubtotalEditorOptions {
+  label: string;
+  value: string;
+  fontFamily: string;
+  fontSize: string;
+  textColor: string;
+  textAlign: string;
+  backgroundColor: string;
+  spacing?: number;
+  columnGap?: number;
+  padding?: string;
+}
+export interface OrderTotalEditorOptions {
+  label: string;
+  value: string;
+  fontFamily: string;
+  fontSize: string;
+  textColor: string;
+  textAlign: string;
+  backgroundColor: string;
+  spacing?: number;
+  padding?: string;
+}
+export interface ShippingMethodEditorOptions {
+  label: string;
+  value: string;
+  fontFamily: string;
+  fontSize: string;
+  textColor: string;
+  textAlign: string;
+  backgroundColor: string;
+  spacing?: number;
+  padding?: string;
+}
+export interface PaymentMethodEditorOptions {
+  label: string;
+  value: string;
+  fontFamily: string;
+  fontSize: string;
+  textColor: string;
+  textAlign: string;
+  backgroundColor: string;
+  spacing?: number;
+  padding?: string;
+}
+export interface CustomerNoteEditorOptions {
+  label: string;
+  value: string;
+  fontFamily: string;
+  fontSize: string;
+  textColor: string;
+  textAlign: string;
+  backgroundColor: string;
+  spacing?: number;
+  padding?: string;
+}
+export interface OrderItemsEditorOptions {
+  orderHeading?: string;
+  orderNumber: string;
+  orderDate: string;
+  productHeader?: string;
+  quantityHeader?: string;
+  priceHeader?: string;
+  productPlaceholder?: string;
+  quantityPlaceholder?: string;
+  pricePlaceholder?: string;
+  items: OrderItem[];
+  subtotalLabel?: string;
+  subtotal: string;
+  discountLabel?: string;
+  discount: string;
+  paymentLabel?: string;
+  paymentMethod: string;
+  totalLabel?: string;
+  total: string;
+  orderItemsSummaryRowOrder?: string[];
+  fontFamily: string;
+  fontSize: string;
+  textColor: string;
+  textAlign: string;
+  backgroundColor: string;
+  padding: string;
+}
+export interface EmailHeaderEditorOptions {
+  storeName: string;
+  showStoreName?: boolean;
+  showLogo: boolean;
+  logoUrl: string;
+  logoWidth: string;
+  showTagline: boolean;
+  tagline: string;
+  title?: string;
+  backgroundColor: string;
+  textColor: string;
+  padding: string;
+  height: string;
+  width: string;
+}
+export interface EmailFooterEditorOptions {
+  storeName: string;
+  showSocialMedia: boolean;
+  showAddress: boolean;
+  storeAddress: string;
+  showContact: boolean;
+  contactEmail: string;
+  contactPhone: string;
+  backgroundColor: string;
+  textColor: string;
+  linkColor: string;
+  padding: string;
+}
+export interface CtaButtonEditorOptions {
+  buttonText: string;
+  buttonUrl: string;
+  alignment: string;
+  backgroundColor: string;
+  textColor: string;
+  hoverColor: string;
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: string;
+  borderRadius: string;
+  buttonPadding: string;
+  padding: string;
+}
+export interface RelatedProductsEditorOptions {
+  title: string;
+  productsToShow: number;
+  showImages: boolean;
+  buttonText: string;
+  backgroundColor: string;
+  titleColor: string;
+  titleFontWeight: string;
+  priceColor: string;
+  buttonColor: string;
+  buttonHoverColor: string;
+  padding: string;
+}

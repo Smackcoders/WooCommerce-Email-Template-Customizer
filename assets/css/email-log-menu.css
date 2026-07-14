@@ -1,0 +1,475 @@
+/* =====================================================
+   WooMailer – Email Log: Premium UI Styles
+   Matching Audie Data Migrator Elite design system
+   ===================================================== */
+
+/* ── Page wrapper ─────────────────────────────────── */
+.wetc-email-log-wrap.wrap {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+/* ── Page heading ─────────────────────────────────── */
+.wetc-email-log-wrap h1.wp-heading-inline {
+    color: #1a1a2e;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    margin-bottom: 4px;
+}
+
+/* ── Filter bar (tablenav top) ────────────────────── */
+.wetc-email-log-wrap .tablenav.top {
+    background: transparent;
+    border: none;
+    padding: 0 0 16px 0;
+    margin: 16px 0;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: auto;
+}
+
+.wetc-email-log-wrap .tablenav.top .alignleft.actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+}
+
+/* selects inside filter bar */
+.wetc-email-log-wrap .tablenav.top .alignleft.actions select {
+    padding: 9px 14px;
+    border: 1.5px solid #e1e1e1;
+    border-radius: 8px;
+    font-size: 13px;
+    background: #fff;
+    color: #333;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    height: auto;
+    min-width: 160px;
+    cursor: pointer;
+}
+
+.wetc-email-log-wrap .tablenav.top .alignleft.actions select:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.12);
+}
+
+/* date inputs inside filter bar */
+.wetc-email-log-wrap .tablenav.top .alignleft.actions input[type="date"] {
+    padding: 9px 14px;
+    border: 1.5px solid #e1e1e1;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    height: auto;
+}
+
+.wetc-email-log-wrap .tablenav.top .alignleft.actions input[type="date"]:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.12);
+}
+
+/* Filter button */
+.wetc-email-log-wrap .tablenav.top .alignleft.actions .button,
+.wetc-email-log-wrap .tablenav.top .alignleft.actions input[type="submit"] {
+    padding: 9px 20px !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    height: auto !important;
+    line-height: normal !important;
+    text-shadow: none !important;
+    box-shadow: 0 2px 6px rgba(102, 126, 234, 0.35) !important;
+}
+
+.wetc-email-log-wrap .tablenav.top .alignleft.actions .button:hover,
+.wetc-email-log-wrap .tablenav.top .alignleft.actions input[type="submit"]:hover {
+    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%) !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.45) !important;
+}
+
+/* bulk actions */
+.wetc-email-log-wrap .tablenav .bulkactions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wetc-email-log-wrap .tablenav.top .bulkactions select,
+.wetc-email-log-wrap .tablenav.bottom .bulkactions select {
+    padding: 4px 12px;
+    border: 1.5px solid #e1e1e1;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #333;
+    height: 36px !important;
+    line-height: normal !important;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wetc-email-log-wrap .tablenav.top .bulkactions .button,
+.wetc-email-log-wrap .tablenav.bottom .bulkactions .button {
+    padding: 0 16px !important;
+    border: 1.5px solid #e1e1e1 !important;
+    border-radius: 8px !important;
+    background: #f8f9fa !important;
+    color: #333 !important;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    height: 36px !important;
+    line-height: 34px !important;
+    box-sizing: border-box;
+    margin: 0 !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wetc-email-log-wrap .tablenav.top .bulkactions .button:hover,
+.wetc-email-log-wrap .tablenav.bottom .bulkactions .button:hover {
+    background: #667eea !important;
+    border-color: #667eea !important;
+    color: #fff !important;
+}
+
+/* ── Search box ───────────────────────────────────── */
+.wetc-email-log-wrap .search-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.wetc-email-log-wrap .search-box input[type="search"] {
+    padding: 0 14px;
+    border: 1.5px solid #e1e1e1;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    height: 38px !important;
+    line-height: 36px !important;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wetc-email-log-wrap .search-box input[type="search"]:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.12);
+}
+
+.wetc-email-log-wrap .search-box input[type="submit"] {
+    padding: 0 18px !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    height: 38px !important;
+    line-height: 38px !important;
+    box-sizing: border-box;
+    margin: 0 !important;
+    text-shadow: none !important;
+    box-shadow: 0 2px 6px rgba(102, 126, 234, 0.35) !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wetc-email-log-wrap .search-box input[type="submit"]:hover {
+    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%) !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.45) !important;
+}
+
+/* ── Table wrapper card ───────────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat {
+    border: 1px solid #e1e1e1 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    background: #fff !important;
+}
+
+/* ── Table header ─────────────────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat thead tr th,
+.wetc-email-log-wrap .wp-list-table.widefat thead tr td {
+    background: linear-gradient(135deg, #f8f9fa 0%, #eceef2 100%) !important;
+    color: #2d2d2d !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.65px !important;
+    padding: 14px 16px !important;
+    border-bottom: 2px solid #e1e1e1 !important;
+    border-right: none !important;
+    border-left: none !important;
+    white-space: nowrap;
+}
+
+.wetc-email-log-wrap .wp-list-table.widefat thead .sortable a,
+.wetc-email-log-wrap .wp-list-table.widefat thead .sorted a {
+    color: #2d2d2d !important;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.wetc-email-log-wrap .wp-list-table.widefat thead .sortable a:hover {
+    color: #667eea !important;
+}
+
+/* ── Table body rows ──────────────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat tbody tr {
+    transition: background 0.18s ease, box-shadow 0.18s ease;
+}
+
+.wetc-email-log-wrap .wp-list-table.widefat tbody tr:nth-child(even) {
+    background: #f9f9fc !important;
+}
+
+.wetc-email-log-wrap .wp-list-table.widefat tbody tr:nth-child(odd) {
+    background: #fff !important;
+}
+
+.wetc-email-log-wrap .wp-list-table.widefat tbody tr:hover {
+    background: linear-gradient(135deg, #f0f1ff 0%, #ede7f6 100%) !important;
+    box-shadow: inset 3px 0 0 0 #667eea;
+}
+
+/* ── Table body cells ─────────────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat tbody td,
+.wetc-email-log-wrap .wp-list-table.widefat tbody th {
+    padding: 13px 16px !important;
+    border-bottom: 1px solid #eeeff3 !important;
+    border-right: none !important;
+    border-left: none !important;
+    font-size: 13.5px !important;
+    color: #444 !important;
+    vertical-align: middle !important;
+}
+
+/* last row – remove bottom border */
+.wetc-email-log-wrap .wp-list-table.widefat tbody tr:last-child td,
+.wetc-email-log-wrap .wp-list-table.widefat tbody tr:last-child th {
+    border-bottom: none !important;
+}
+
+/* ── Order ID link ────────────────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat tbody td a {
+    color: #667eea;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.wetc-email-log-wrap .wp-list-table.widefat tbody td a:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+/* ── Status badge – SUCCESS ───────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat tbody td span[style*="color: #46b450"],
+.wetc-email-log-wrap .wp-list-table.widefat tbody td span[style*="color:#46b450"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    padding: 4px 12px !important;
+    background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%) !important;
+    color: #155724 !important;
+    border: 1px solid #b8dfc7 !important;
+    border-radius: 20px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.4px !important;
+    text-transform: uppercase !important;
+}
+
+/* ── Status badge – FAILED ────────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat tbody td span[style*="color: #dc3232"],
+.wetc-email-log-wrap .wp-list-table.widefat tbody td span[style*="color:#dc3232"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    padding: 4px 12px !important;
+    background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%) !important;
+    color: #721c24 !important;
+    border: 1px solid #f1b0b7 !important;
+    border-radius: 20px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.4px !important;
+    text-transform: uppercase !important;
+}
+
+/* ── Opened YES badge ─────────────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat tbody td span[style*="color:#46b450;font-weight:bold"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    padding: 3px 10px !important;
+    background: #d4edda !important;
+    color: #155724 !important;
+    border: 1px solid #b8dfc7 !important;
+    border-radius: 20px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+}
+
+/* ── Opened NO badge ──────────────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat tbody td span[style*="color:#777"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    padding: 3px 10px !important;
+    background: #f0f0f5 !important;
+    color: #555 !important;
+    border: 1px solid #ddd !important;
+    border-radius: 20px !important;
+    font-size: 11.5px !important;
+    font-weight: 500 !important;
+}
+
+/* ── No items row ─────────────────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat .no-items td {
+    padding: 40px 20px !important;
+    text-align: center !important;
+    color: #888 !important;
+    font-style: italic;
+    font-size: 14px !important;
+}
+
+/* ── Checkbox column ──────────────────────────────── */
+.wetc-email-log-wrap .wp-list-table.widefat .column-cb {
+    width: 38px;
+}
+
+.wetc-email-log-wrap .wp-list-table.widefat .column-cb input[type="checkbox"],
+.wetc-email-log-wrap .wp-list-table.widefat thead .manage-column input[type="checkbox"] {
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    accent-color: #667eea;
+    cursor: pointer;
+}
+
+/* ── Pagination (tablenav bottom) ─────────────────── */
+.wetc-email-log-wrap .tablenav.bottom {
+    background: transparent;
+    border: none;
+    padding: 14px 0 0;
+    margin: 14px 0 0;
+    box-shadow: none;
+    height: auto;
+}
+
+.wetc-email-log-wrap .tablenav .tablenav-pages a,
+.wetc-email-log-wrap .tablenav .tablenav-pages span.current {
+    padding: 0 10px !important;
+    height: 31px !important;
+    line-height: 29px !important;
+    box-sizing: border-box !important;
+    border: 1.5px solid #e1e1e1 !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    transition: all 0.2s ease !important;
+    margin: 0 2px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    vertical-align: middle !important;
+}
+
+.wetc-email-log-wrap .tablenav .tablenav-pages input.current-page {
+    height: 31px !important;
+    line-height: 29px !important;
+    box-sizing: border-box !important;
+    padding: 0 10px !important;
+    border: 1.5px solid #e1e1e1 !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    margin: 0 4px !important;
+    vertical-align: middle !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.wetc-email-log-wrap .tablenav .tablenav-pages .tablenav-pages-navspan {
+    height: 31px !important;
+    line-height: 29px !important;
+    box-sizing: border-box !important;
+    border: 1.5px solid #e1e1e1 !important;
+    border-radius: 6px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 10px !important;
+    background: #f8f9fa !important;
+    color: #999 !important;
+    margin: 0 2px !important;
+    vertical-align: middle !important;
+}
+
+.wetc-email-log-wrap .tablenav .tablenav-pages a {
+    background: #fff !important;
+    color: #667eea !important;
+}
+
+.wetc-email-log-wrap .tablenav .tablenav-pages a:hover {
+    background: #667eea !important;
+    border-color: #667eea !important;
+    color: #fff !important;
+}
+
+.wetc-email-log-wrap .tablenav .tablenav-pages span.current {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    border-color: #667eea !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+
+.wetc-email-log-wrap .tablenav .displaying-num {
+    color: #666;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ── Responsive ───────────────────────────────────── */
+@media (max-width: 900px) {
+    .wetc-email-log-wrap .tablenav.top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .wetc-email-log-wrap .tablenav.top .alignleft.actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .wetc-email-log-wrap .tablenav.top .alignleft.actions select,
+    .wetc-email-log-wrap .tablenav.top .alignleft.actions input[type="date"],
+    .wetc-email-log-wrap .tablenav.top .alignleft.actions .button {
+        width: 100%;
+    }
+}
